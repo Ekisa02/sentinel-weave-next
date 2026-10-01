@@ -1,0 +1,20 @@
+{
+  "name": "sentinel-weave",
+  "version": "0.1.0",
+  "description": "On-chain cybersecurity threat detection primitives (Hardhat + OpenZeppelin)",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "clean": "hardhat clean"
+  },
+  "author": "Sentinel Weave Contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.14.0",
+    "chai": "^4.3.7",
+    "ethers": "^6.0.0",
+    "@openzeppelin/contracts": "^4.9.0"
+  }
+}

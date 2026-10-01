@@ -1,0 +1,1 @@
+Core design: ThreatRegistry (AccessControl) stores minimal on-chain threat references; off-chain systems index events and run heavier analysis. ThreatOracle demonstrates a role-based oracle pattern to confirm reports. ThreatScore is a pure library for deterministic scoring.
